@@ -1,12 +1,18 @@
 #include<stdio.h>
 
-int main()
+int main ()
 {
-	int canh_hinh_vuong;
-	canh_hinh_vuong=5;
-	int chuVi = canh_hinh_vuong * 4;
-	int dienTich = canh_hinh_vuong * canh_hinh_vuong ;
-	printf("chu vi hinh vuong la : %d \n", chuVi );
-	printf("Dien tich hinh vuong la : %d ",dienTich);
-	return 0 ;
+	float toan , van , anh , tong , trungBinhcong ;
+	printf("\nMoi nhap diem toan : ");
+	scanf("%f",&toan);
+	printf("\nMoi nhap diem van : ");
+	scanf("%f",&van);
+	printf("\nMoi nhap diem anh : ");
+	scanf("%f", &anh);
+	tong = toan + van + anh ;
+	printf("\ntong diem 3 mon la : %.2f " , tong);
+	trungBinhcong = tong / 3 ;
+	printf("\nDiem trung binh 3 mon la : %.2f " , trungBinhcong);
+	
+	
 }

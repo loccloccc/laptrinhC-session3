@@ -2,9 +2,10 @@
 
 int main()
 {
-	int numb1=10;
-	int numb2=19;
-	int total=numb1+numb2;
-	printf("tong cua hai so %d va %d la : %d ",numb1,numb2,total);
-	return 0 ;
-}
+	float  do_C;
+	printf("Moi ban nhap do C :");
+	scanf("%f",&do_C);
+	float do_F = do_C * 1.8 + 32;
+	printf("\n chuyen doi nhiet do tu do Celsius sang do Fahrenheit %f " , do_F);
+	return 0 ;	
+} 

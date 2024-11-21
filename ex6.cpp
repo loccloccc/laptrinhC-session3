@@ -2,11 +2,11 @@
 
 int main()
 {
-	float Pi = 3.14;
-	float R = 5 ; 
-	float chuVi = 2 * Pi * R;
-	float dienTich = 2 * Pi * R * R ; 
-	printf("Chu vi hinh tron la : %.1f \n",chuVi) ;
-	printf("Dien tich hinh tron la : %.1f", dienTich);
-	return 0 ;
+	float canh_tam_giac , chieu_cao , dienTich;
+	printf("\nMoi nhap do dai canh tam giac :");
+	scanf("%f",&canh_tam_giac);
+	printf("\nMoi nhap chieu cao tan giac :");
+	scanf("%f",&chieu_cao);
+	dienTich = 0.5 * canh_tam_giac * chieu_cao ;
+	printf("\nDien tich tam giac la : %.1f", dienTich);
 }
